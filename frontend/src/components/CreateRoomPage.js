@@ -10,7 +10,7 @@ export default class CreateRoomPage extends Component {
   render() {
     return (
       <p>
-        this is CreateRoomPage
+        this is Create Room Page
       </p>
     );
   }
