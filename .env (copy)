@@ -1,0 +1,16 @@
+SECRET_KEY=yir$q7)#!l_=$v8w=*vxxc=8^52wf=kz&9&#%et$v*rwibh13$
+DEBUG = True
+TIME_ZONE = Asia/Kathmandu
+
+EMAIL_HOST_PASSWORD =****
+EMAIL_HOST_USER =******
+DEFAULT_FROM_EMAIL =*****
+EMAIL_HOST = smtp.gmail.com
+
+
+DB_ENGINE = django.db.backends.sqlite3
+DB_NAME = BASE_DIR / 'db.sqlite3
+DB_USER = root
+DB_PASSWORD =
+DB_HOST = 127.0.0.1
+DB_PORT = 3306
