@@ -40,9 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # new app
+    'account',
     'api.apps.ApiConfig',
     'frontend.apps.FrontendConfig',
     'rest_framework',
+
 ]
 
 MIDDLEWARE = [
@@ -82,7 +84,11 @@ WSGI_APPLICATION = 'ams_django_react.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': config('DB_ENGINE'),
-        'NAME': config('DB_ENGINE'),
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT'),
     }
 }
 
